@@ -56,8 +56,7 @@ To implement the solution provided in this post, you should have an [AWS account
 
 |             |                                          |
 | :---------- | :--------------------------------------: |
-| `us-east-1` | ![](./img/ML-15539-cfn-launch-stack.png) |
-
+| `us-east-1` | [<img src="./img/ML-15539-cfn-launch-stack.png">](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=agents-csbot-stack&templateURL=https://aws-blogs-artifacts-public.s3.amazonaws.com/artifacts/ML-15539/template.yml) |
 
 The CloudFormation template creates two IAM roles. Update these roles to apply least-privilege permissions as discussed in [Security best practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege). Click [here](https://docs.aws.amazon.com/bedrock/latest/userguide/security_iam_service-with-iam-agent.html) to learn what IAM features are available to use with agents for Amazon Bedrock.
 
